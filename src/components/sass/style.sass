@@ -1,0 +1,110 @@
+nav#navbar
+    width: 100%
+    border-bottom: 1px solid #000
+    display: flex
+    background-color: #0001
+    .logo
+        padding: 10px
+        font-size: 28px
+    ul
+        flex: 1
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        // padding-right: 5%
+        list-style-type: none
+        li
+            display: inline-block
+            a
+                display: inline-block
+                padding: 20px
+                text-decoration: none
+                color: #fff
+                background-color: #000
+#quotes
+    width: 100%
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    background-color: #0003
+    .card
+        width: 400px
+        background-color: #ddd
+        border-radius: 10px
+        margin: 10px
+        display: flex
+        flex-direction: column
+        .body
+            flex: 1
+            width: 100%
+            padding: 10% 5%
+            display: flex
+            justify-content: center
+            align-items: center
+            min-height: calc(20% + 100px)
+            .quote
+                width: 100%
+                text-align: justify
+                font-family: Indie Flower
+                font-weight: bold
+                background-size: 100% 100%
+                background-position: center center
+                // background-color: #66666666
+            &:hover
+                .quote
+                    color: #fff
+        .footer
+            background-color: #fff
+            width: 100%
+            padding: 10px
+            border-radius: 0 0 5px 5px
+            .top
+                display: flex
+                font-family: Roboto+Condensed
+                padding-bottom: 10px
+                .author
+                    font-weight: bold
+                    flex: 1
+                .category
+                    text-align: right
+                    padding: 0 10px
+                    margin-right: 10px
+                    background-color: #ddd
+                    border-radius: 2.5px
+                .date
+                    text-align: right
+            .bottom
+                font-family: Rubik
+                display: flex
+                width: 100%
+                overflow-x: hidden
+                position: relative
+                .tags
+                    display: flex
+                    height: 20px
+                    width: 400px
+                    span
+                        border-radius: 100px
+                        background-color: rgba(0,0,0,0.4)
+                        padding: 2.5px 7.5px
+                        font-size: 12px
+                        color: #fff
+                        width: fit-content
+        .inspire
+            background-color: #2274A5
+        .management
+            background-color: #F75C03
+        .sports
+            background-color: #F1C40F
+        .life
+            background-color: #465362
+        .funny
+            background-color: #00CC66
+        .love
+            background-color: #D90368
+        .art
+            background-color: #ffffff
+        .students
+            background-color: #B84A62
+
+            

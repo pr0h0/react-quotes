@@ -1,0 +1,134 @@
+nav#navbar {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  display: flex;
+  background-color: #0001;
+}
+nav#navbar .logo {
+  padding: 10px;
+  font-size: 28px;
+}
+nav#navbar ul {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+}
+nav#navbar ul li {
+  display: inline-block;
+}
+nav#navbar ul li a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+}
+
+#quotes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #0003;
+}
+#quotes .card {
+  width: 400px;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#quotes .card .body {
+  flex: 1;
+  width: 100%;
+  padding: 10% 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(20% + 100px);
+}
+#quotes .card .body .quote {
+  width: 100%;
+  text-align: justify;
+  font-family: Indie Flower;
+  font-weight: bold;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+#quotes .card .body:hover .quote {
+  color: #fff;
+}
+#quotes .card .footer {
+  background-color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+}
+#quotes .card .footer .top {
+  display: flex;
+  font-family: RobotoCondensed;
+  padding-bottom: 10px;
+}
+#quotes .card .footer .top .author {
+  font-weight: bold;
+  flex: 1;
+}
+#quotes .card .footer .top .category {
+  text-align: right;
+  padding: 0 10px;
+  margin-right: 10px;
+  background-color: #ddd;
+  border-radius: 2.5px;
+}
+#quotes .card .footer .top .date {
+  text-align: right;
+}
+#quotes .card .footer .bottom {
+  font-family: Rubik;
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+#quotes .card .footer .bottom .tags {
+  display: flex;
+  height: 20px;
+  width: 400px;
+}
+#quotes .card .footer .bottom .tags span {
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2.5px 7.5px;
+  font-size: 12px;
+  color: #fff;
+  width: fit-content;
+}
+#quotes .card .inspire {
+  background-color: #2274A5;
+}
+#quotes .card .management {
+  background-color: #F75C03;
+}
+#quotes .card .sports {
+  background-color: #F1C40F;
+}
+#quotes .card .life {
+  background-color: #465362;
+}
+#quotes .card .funny {
+  background-color: #00CC66;
+}
+#quotes .card .love {
+  background-color: #D90368;
+}
+#quotes .card .art {
+  background-color: #ffffff;
+}
+#quotes .card .students {
+  background-color: #B84A62;
+}
+
+/*# sourceMappingURL=style.css.map */
